@@ -14,7 +14,7 @@ $(function () {
         var heya = $('input[name="heya"]').val();
         var meado = $('input[name="meado"]').val();
         
-        var msg = `${key}\n名前：${simei}\nフリガナ：${furigana}\n生年月日：${sei}\n電話番号：${denwa}\n郵便番号：${yubin}\n都道府県：${ken}\n市区町村：${siku}\n建物名・部屋番号：${heya}\nメール：${meado}`;
+        var msg = `名前：${simei}\nフリガナ：${furigana}\n生年月日：${sei}\n電話番号：${denwa}\n郵便番号：${yubin}\n都道府県：${ken}\n市区町村：${siku}\n建物名・部屋番号：${heya}\nメール：${meado}`;
 
         sendText(msg);
 
